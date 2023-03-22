@@ -4,12 +4,9 @@ namespace Power2Method
 {
     class Program
     {
-        private static void Power2Until5M()
+        private static void Power2OfUntil5M()
         {
-            for(int i = 1; i <= (1 << 5); i = i << 1)
-            {
-                Console.WriteLine(i);
-            }
+           PowerOf2UntilN(5);
         }
 
         private static void PowerOf2UntilN(int n)
@@ -21,9 +18,9 @@ namespace Power2Method
         }
         static void Main(string[] args)
         {
-            Power2Until5M();
+            Power2OfUntil5M();
             PowerOf2UntilN(6);
-            PowerOf2UntilN(8);
+            PowerOf2UntilN(12);
         }
     }
 }
