@@ -2,6 +2,9 @@
 
 namespace Power2Method
 {
+    /// <summary>
+    /// Defines 2 additional private methods;
+    /// </summary>
     class Program
     {
         /// <summary>
